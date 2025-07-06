@@ -12,6 +12,18 @@ let age: number;
 age = 30.5
 console.log(age);
 
+//Array variable declaration
+let nums: string[];
+let nums1: Array<number>;
+
+nums = ["hello", "beautiful", "world"];
+nums1 = [5,9,5];
+
+let result = nums.filter((item) => {
+    return item.length > 5;
+});
+console.log(result);
+
 
 
 
