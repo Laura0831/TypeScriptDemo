@@ -1,0 +1,20 @@
+# Node.js dependencies
+node_modules/
+
+# TypeScript build output
+dist/
+build/
+*.js
+*.js.map
+
+# Environment variables
+.env
+
+# Logs
+*.log
+
+# OS/System files
+.DS_Store
+
+# VS Code settings (optional, if personal)
+.vscode/
