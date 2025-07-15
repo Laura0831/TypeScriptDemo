@@ -31,3 +31,12 @@ function addNumbers(num1: number, num2: number): number {
 
 console.log(addNumbers(23,17));
 
+
+//rest parameters function
+function getIterms<Type>(items: Type[]): Type[]{
+    return new Array<Type>().concat(items);
+}
+
+let numbers = getIterms<number>([1,3,5,7,9]);
+
+console.log(numbers);
