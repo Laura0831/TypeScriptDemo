@@ -24,7 +24,10 @@ let result = nums.filter((item) => {
 });
 console.log(result);
 
+//function in typescript
+function addNumbers(num1: number, num2: number): number {
+    return num1 + num2;
+}
 
-
-
+console.log(addNumbers(23,17));
 
