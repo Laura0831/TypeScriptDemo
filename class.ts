@@ -16,5 +16,5 @@
 //  john.name = "John Monroe";
 //  john.address = "2425 type st. Maine USA";
 
-console.log("almost done with work");
+
     console.log(john.name);
