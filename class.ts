@@ -15,5 +15,5 @@
 //  john.id = 1;
 //  john.name = "John Monroe";
 //  john.address = "2425 type st. Maine USA";
-
+console.log("hello beautiful people");
     console.log(john.name);
